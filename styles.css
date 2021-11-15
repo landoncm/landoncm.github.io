@@ -4,24 +4,54 @@ body {
 }
 
 .assignments {
-    display:flex;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.assignment{
+    width:20%;
     padding:10px;
-    margin: 10px;
-    background:lightgrey;
+    margin:10px;
+    padding:20px 10px;
+    background: lightgray;
+    border-radius: 25px;
 }
 
 .assignments img{
-    width:200px;
+    width: 150px;
+    height:200px;
+    margin:10px;
+    border:5px solid black;
+    border-radius: 10px;
     padding:10px;
-    border: 4px dashed purple;
+    display:block;
+    margin:auto;
+}
+
+.assignments img:hover {
+    border: 4px dashed orangered;
 }
 
 h1 {
     color:black;
-    text-align:center;
+    text-align: center;
 }
+
+h1:hover {
+    color: black;
+}
+
+
 
 a{
     text-decoration:none;
-    color:purple;
+    color:black;
+}
+
+a:hover {
+    color: black;
+}
+
+p {
+    color:black;
 }
